@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: gray;
+    padding: 16px 0;
+    color: #e1e1e1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #e1e1e1;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#programer {
+    background-color: gray;
+}
+
+#programer .articles article a {
+    background-color: white;
+}
+
+#programer .articles article p{
+    color: black;
+}
+
+#programer .articles h3{
+    color: #e1e1e1;
+}
+
+#programer .articles a{
+    color: black;
+}
+
+#programer .articles time {
+    color: white
+}
+
+#games {
+    background-color: rgb(37, 37, 37);
+}
+
+#games .articles article a {
+    background-color: black;
+}
+
+#games .articles article p{
+color: gray;
+}
+
+#games .articles h3{
+    color: #e1e1e1;
+}
+
+#games .articles time {
+    color: white
+}
+
+#games .articles a{
+    color: white;
+}
+
+#entertainment .articles article a{
+    background-color: gray;
+}
+
+#entertainment .articles h3{
+    color: #e1e1e1;
+}
+
+#entertainment{
+    background-color: rgb(88, 0, 0, 80%);
+}
+
+#entertainment .articles article p{
+    color: white;
+}
+
+#entertainment .articles time {
+    color: white
+}
+
+#technology .articles article a{
+    background-color: pink;
+}
+
+#technology .articles h3{
+    color: #e1e1e1;
+}
+
+#technology {
+    background-color: rgba(67, 17, 247, 0.644);
+}
+
+#technology .articles article p{
+    color: black
+}
+
+#technology .articles time {
+    color: white
+}
+
+#technology .articles a{
+    color: black;
+}
